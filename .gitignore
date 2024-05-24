@@ -1,0 +1,7 @@
+miniRT
+.vscode/
+**/other
+**/.build
+**/minilibx-linux
+libft/libft.a
+miniRT_bonus
