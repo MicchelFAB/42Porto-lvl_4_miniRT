@@ -145,8 +145,7 @@ brun: bonus
 	./$(NAME_BNS) scenes/bonus/manual_bonus.rt
 
 download:
-	wget https://cdn.intra.42.fr/document/document/22621/minilibx-linux.tgz && \
-	tar -xf minilibx-linux.tgz && rm -rf minilibx-linux.tgz
+	git clone https://github.com/42Paris/minilibx-linux.git
 
 gmon: all
 	./$(NAME) scenes/mandatory/manual.rt
