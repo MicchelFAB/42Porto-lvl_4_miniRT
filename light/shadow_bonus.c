@@ -4,15 +4,14 @@
  * @brief File containing the functions to calculate if a point is in shadow. 
  * Complemetary to the core functions.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "light.h"
 /**
  * @brief Check if a point is in shadow.
- * 
  * @param w The world.
  * @param light The light.
  * @param point The point.

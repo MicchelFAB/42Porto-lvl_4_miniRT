@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the main function for the bonus part of the project.
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "minirt_bonus.h"
 /**
  * @brief Function to print the instructions on the terminal.
- * 
  */
 void	ft_print_instruct(void)
 {
@@ -35,8 +34,7 @@ void	ft_print_instruct(void)
 	ft_putstr_fd("      [-](MINUS KEY)       - MOVE THE Z AXIS\n", 1);
 }
 /**
- * @brief Set the shapes object
- * 
+ * @brief Set the shapes object * 
  * @param lst 
  * @param scene 
  */
@@ -56,8 +54,7 @@ static void	set_shapes(t_list **lst, t_scene *scene)
 	*lst = scene->objects;
 }
 /**
- * @brief Set the up world object
- * 
+ * @brief Set the up world object * 
  * @param scene 
  * @return t_world* 
  */
@@ -72,7 +69,6 @@ static t_world	*setup_world(t_scene *scene)
 }
 /**
  * @brief FUnction to save the moment zero of the camera view.
- * 
  * @param w 
  */
 void	ft_duplicate_camera(t_world *w)
@@ -84,7 +80,6 @@ void	ft_duplicate_camera(t_world *w)
 }
 /**
  * @brief Main function for the bonus part of the project.
- * 
  * @param ac 
  * @param av 
  * @return int 

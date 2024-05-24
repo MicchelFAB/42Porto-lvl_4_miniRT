@@ -3,10 +3,10 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the transformation functions for the mandatory part.
  * @version 0.1
- * @date 2024-05-23
+ * @date 2024-05-23 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "parse.h"
 

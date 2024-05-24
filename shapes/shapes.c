@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File to handle the parsing of the shapes.
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "minirt.h"
 /**
  * @brief Function to select the shape to be created.
- * 
  * @param type 
  * @return t_shapes* 
  */
@@ -37,7 +36,6 @@ t_shapes	*ft_create_shape(int type)
 }
 /**
  * @brief Function to set the shape transform an create its inverted matrix.
- * 
  * @param shapes 
  * @param transform 
  */
@@ -48,7 +46,6 @@ void	ft_set_shape_transform(t_shapes *shapes, t_matrix transform)
 }
 /**
  * @brief Function to free the shapes.
- * 
  * @param shapes 
  */
 void	ft_free_shapes(t_shapes *shapes)
@@ -71,7 +68,6 @@ void	ft_free_shapes(t_shapes *shapes)
 }
 /**
  * @brief Function to add the shapes to a linked list.
- * 
  * @param lst 
  * @param shapes 
  */

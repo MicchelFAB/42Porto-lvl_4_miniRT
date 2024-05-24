@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the functions to get the integer values.
  * @version 0.1
- * @date 2024-05-23
+ * @date 2024-05-23 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "parse.h"
 /**
  * @brief Function to check if the string is an integer.
- * 
  * @param str 
  * @return true 
  * @return false 
@@ -31,7 +30,6 @@ bool	ft_str_isint(char *str)
 }
 /**
  * @brief Function to get the integer value.
- * 
  * @param str 
  * @param code 
  * @param scene 
@@ -48,7 +46,6 @@ int	ft_get_int(char *str, char *code, t_scene *scene)
 }
 /**
  * @brief Function to get the positive integer value.
- * 
  * @param str 
  * @param code 
  * @param scene 
@@ -68,7 +65,6 @@ int	ft_get_posint(char *str, char *code, t_scene *scene)
 }
 /**
  * @brief Function to convert degrees to radians.
- * 
  * @param deg 
  * @return double 
  */
@@ -78,7 +74,6 @@ static double	ft_deg2rad(double deg)
 }
 /**
  * @brief Function to get the field of view.
- * 
  * @param str 
  * @param code 
  * @param scene 

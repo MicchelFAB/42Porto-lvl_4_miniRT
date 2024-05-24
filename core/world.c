@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing functions to create and manipulate the world.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "core.h"
 /**
  * @brief Create a world.
- * 
  * @return t_world* The created world.
  */
 t_world	*ft_create_world(void)
@@ -28,7 +27,6 @@ t_world	*ft_create_world(void)
 }
 /**
  * @brief Function to free the world.
- * 
  * @param world 
  */
 void	ft_free_world(t_world *world)
@@ -52,7 +50,6 @@ void	ft_free_world(t_world *world)
 }
 /**
  * @brief Function to calculate the intersections of the objects in the world.
- * 
  * @param i 
  * @param world 
  * @param ray 

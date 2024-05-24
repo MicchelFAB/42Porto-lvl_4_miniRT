@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the reflection and refraction functions.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "minirt.h"
 /**
  * @brief Calculates the reflected color.
- * 
  * @param world 
  * @param comps 
  * @param remaining 
@@ -32,7 +31,6 @@ t_color	ft_reflected_color(t_world *world, t_comps *comps, int remaining)
 }
 /**
  * @brief Creates a glass sphere.
- * 
  * @return t_shapes 
  */
 t_shapes	*ft_create_glass_sphere(void)
@@ -46,7 +44,6 @@ t_shapes	*ft_create_glass_sphere(void)
 }
 /**
  * @brief Calculates the refracted direction.
- * 
  * @param comps 
  * @param n_ratio 
  * @return t_vec3 
@@ -69,7 +66,6 @@ t_vec3	ft_refract_dir(t_comps *comps, double n_ratio)
 }
 /**
  * @brief Calculates the refracted color.
- * 
  * @param world 
  * @param comps 
  * @param remaining 
@@ -97,7 +93,6 @@ t_color	ft_refracted_color(t_world *world, t_comps *comps, int remaining)
 }
 /**
  * @brief Calculates the Schlick approximation.
- * 
  * @param comps 
  * @return double 
  */

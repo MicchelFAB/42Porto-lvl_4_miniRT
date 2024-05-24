@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the functions to get the ratio values.
  * @version 0.1
- * @date 2024-05-23
+ * @date 2024-05-23 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "parse.h"
 /**
  * @brief Function to convert a string to a double.
- * 
  * @param str 
  * @return double 
  */
@@ -40,7 +39,6 @@ double	ft_atod(const char *str)
 }
 /**
  * @brief Function to get the double value.
- * 
  * @param str 
  * @param code 
  * @param scene 
@@ -57,7 +55,6 @@ double	ft_get_double(char *str, char *code, t_scene *scene)
 }
 /**
  * @brief Function to get the ratio value.
- * 
  * @param str 
  * @param code 
  * @param scene 
@@ -77,7 +74,6 @@ double	ft_get_ratio(char *str, char *code, t_scene *scene)
 }
 /**
  * @brief Function to get the size value.
- * 
  * @param str 
  * @param code 
  * @param scene 
@@ -97,7 +93,6 @@ double	ft_get_size(char *str, char *code, t_scene *scene)
 }
 /**
  * @brief Function to check the limit of the colour.
- * 
  * @param color 
  * @param scene 
  * @param code 

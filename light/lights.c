@@ -4,15 +4,14 @@
  * @brief File containing the functions to calculate the normal at a point where
  *  the light hits the object.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "light.h"
 /**
  * @brief Creates a point light.
- * 
  * @param position The position of the light.
  * @param intensity The intensity of the light.
  * @param ratio The ratio of the light.
@@ -29,7 +28,6 @@ t_light	*ft_create_point_light(t_point position, t_color intensity,	double ratio
 }
 /**
  * @brief Calculates the specular lighting.
- * 
  * @param lighting The lighting structure.
  * @param material The material of the object.
  * @param c The computations.
@@ -50,7 +48,6 @@ void	ft_lighting_specular(t_lighting *lighting, t_material material, t_comps *c,
 }
 /**
  * @brief Calculates the lighting.
- * 
  * @param m The material of the object.
  * @param c The computations.
  * @param light The light.
@@ -87,7 +84,6 @@ t_color	ft_lighting(t_material m, t_comps *c, t_light *light, bool in_shadow)
 }
 /**
  * @brief Returns the normal at a point where the light hits the object.
- * 
  * @param s The shape.
  * @param world_point The point where the light hits the object.
  * @return t_vec3 The normal at the point.
@@ -112,7 +108,6 @@ t_vec3	ft_normal_at(t_shapes *s, t_point world_point)
 }
 /**
  * @brief Returns the reflection of a vector.
- * 
  * @param in The vector to be reflected.
  * @param normal The normal vector.
  * @return t_vec3 The reflected vector.

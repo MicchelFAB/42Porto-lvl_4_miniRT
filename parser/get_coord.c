@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the functions to get the coordinates.
  * @version 0.1
- * @date 2024-05-23
+ * @date 2024-05-23 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "parse.h"
 /**
  * @brief Function to check if the character is repeated.
- * 
  * @param str 
  * @param c 
  * @return int 
@@ -30,7 +29,6 @@ int	ft_check_rep_char(char *str, char c)
 }
 /**
  * @brief Function to check if the string is a double.
- * 
  * @param str 
  * @return true 
  * @return false 
@@ -52,7 +50,6 @@ bool	ft_isdouble(char *str)
 }
 /**
  * @brief Function to check if the normal is valid.
- * 
  * @param n 
  * @return int 
  */
@@ -64,7 +61,6 @@ int	ft_isnormal(t_vec3 n)
 }
 /**
  * @brief Function to get the coordinates.
- * 
  * @param str 
  * @param code 
  * @param scene 
@@ -97,7 +93,6 @@ t_vec3	ft_get_coord(char *str, char *code, t_scene *scene)
 }
 /**
  * @brief Function to get the normal.
- * 
  * @param str 
  * @param code 
  * @param scene 

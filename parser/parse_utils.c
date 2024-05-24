@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the utility functions for the parsing.
  * @version 0.1
- * @date 2024-05-23
+ * @date 2024-05-23 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "parse.h"
 /**
  * @brief Function to record an error message on struct.
- * 
  * @param scene 
  * @param code
  * @see error.h 
@@ -23,7 +22,6 @@ void	ft_msg_error(t_scene *scene, char *code)
 }
 /**
  * @brief Function to free of the scene objects.
- * 
  * @param scene 
  */
 void	ft_free_all_scene(t_scene *scene)
@@ -48,7 +46,6 @@ void	ft_free_all_scene(t_scene *scene)
 }
 /**
  * @brief Function to determine the size of a string array.
- * 
  * @param s 
  * @return size_t 
  */
@@ -63,7 +60,6 @@ size_t	ft_strlen_2(char **s)
 }
 /**
  * @brief Reverse of the strcmp function.
- * 
  * @param s1 
  * @param s2 
  * @param n 
@@ -90,7 +86,6 @@ int	ft_strnrcmp(const char *s1, const char *s2, size_t n)
 }
 /**
  * @brief Function to free the string array.
- * 
  * @param s 
  */
 void	ft_split_free(char **s)

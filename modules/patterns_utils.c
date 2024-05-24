@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the pattern functions.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "modules.h"
 /**
  * @brief creates a ring pattern.
- * 
  * @param pattern 
  * @param shape_type 
  * @param point 
@@ -38,7 +37,6 @@ t_color	ft_ring_at(t_pattern pattern, int shape_type, t_point point)
 }
 /**
  * @brief creates a checkers pattern.
- * 
  * @param pattern 
  * @param point 
  * @return t_color 
@@ -56,7 +54,6 @@ t_color	ft_checkers_at(t_pattern pattern, t_point point)
 }
 /**
  * @brief Function that assures the file is open.
- * 
  * @param file 
  * @param scene 
  * @param fd 
@@ -70,8 +67,7 @@ int	ft_secure_open(char *file, t_scene *scene, int *fd)
 	return (*fd);
 }
 /**
- * @brief Creates a texture pattern based on xpm file
- * 
+ * @brief Creates a texture pattern based on xpm file * 
  * @param pattern_type 
  * @param xpm_txt 
  * @param err 
@@ -91,7 +87,6 @@ t_pattern	ft_create_xpm_pattern(int pattern_type, char *xpm_txt, t_scene *err)
 }
 /**
  * @brief Function to get the color of a point in a xpm img.
- * 
  * @param pattern 
  * @param point 
  * @return t_color 

@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the functions to calculate if a point is in shadow.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "light.h"
 /**
  * @brief Check if a point is in shadow.
- * 
  * @param w The world.
  * @param light The light.
  * @param point The point.
@@ -48,7 +47,6 @@ bool	ft_is_shadowed(t_world *w, t_light *light, t_point point)
 }
 /**
  * @brief Calculate the color of the shadow.
- * 
  * @param in_shadow If the point is in shadow.
  * @param lighting The lighting.
  * @return t_color The color of the shadow.

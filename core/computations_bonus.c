@@ -4,15 +4,14 @@
  * @brief File containing functions to prepare computations and calculate the
  * surface color of an object. On bonus.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "core.h"
 /**
  * @brief Prepare the computations for a hit intersection.
- * 
  * @param lst The list of intersections.
  * @param hit The hit intersection.
  * @param r The ray.
@@ -47,7 +46,6 @@ t_comps	*ft_prepare_computations_bonus(t_intersections **lst, t_intersection *hi
 }
 /**
  * @brief Calculate the surface color of an object.
- * 
  * @param world The world.
  * @param comps The computations.
  * @return t_color The surface color.
@@ -70,7 +68,6 @@ t_color	ft_surface_bonus(t_world *world, t_comps *comps)
 }
 /**
  * @brief Calculate the color of a hit intersection.
- * 
  * @param world The world.
  * @param comps The computations.
  * @param remaining The remaining reflections.

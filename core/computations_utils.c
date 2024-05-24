@@ -4,15 +4,14 @@
  * @brief File containing functions to prepare computations and calculate the
  * surface color of an object.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "core.h"
 /**
  * @brief Check if a list contains a shape.
- * 
  * @param lst The list.
  * @param shape The shape.
  * @return true If the list contains the shape.\
@@ -33,7 +32,6 @@ bool	ft_lst_contains(t_list *lst, t_shapes *shape)
 }
 /**
  * @brief Remove a shape from a list.
- * 
  * @param lst The list.
  * @param shape The shape.
  */
@@ -61,7 +59,6 @@ void	ft_lst_remove(t_list **lst, t_shapes *shape)
 }
 /**
  * @brief Check the refractive indices of the containers.
- * 
  * @param containers The list of containers.
  * @return double The refractive index.
  */

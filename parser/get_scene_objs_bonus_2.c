@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File complementary to get_scene_bonus.c containing the elements of scene for the bonus part.
  * @version 0.1
- * @date 2024-05-23
+ * @date 2024-05-23 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "parse.h"
 /**
  * @brief Function to check if the bonus list is valid.
- * 
  * @param scene 
  * @return int 
  */
@@ -23,7 +22,6 @@ int	ft_check_bonus_list(t_scene *scene)
 }
 /**
  * @brief Function to reset the bonus quantity.
- * 
  * @param bonus_qtys 
  */
 void	ft_reset_qty(int *bonus_qtys)
@@ -39,7 +37,6 @@ void	ft_reset_qty(int *bonus_qtys)
 }
 /**
  * @brief Function to get the bonus list.
- * 
  * @param scene 
  * @param id 
  */
@@ -68,8 +65,7 @@ void	ft_get_bonus_list(t_scene *scene, int id)
 	}
 }
 /**
- * @brief Get the camera arguments for bonus part
- * 
+ * @brief Get the camera arguments for bonus part * 
  * @param scene 
  */
 void	get_2_cam_bonus(t_scene *scene)
@@ -92,8 +88,7 @@ void	get_2_cam_bonus(t_scene *scene)
 	scene->camera->normalized = ft_vector(scene->camera->normalized.x, scene->camera->normalized.y, scene->camera->normalized.z);
 }
 /**
- * @brief Get the triangle object
- * 
+ * @brief Get the triangle object * 
  * @param scene 
  */
 void	get_9_tr(t_scene *scene)

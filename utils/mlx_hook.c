@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File with functions to handle the mlx events.
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "utils.h"
 /**
  * @brief Function to close the program. If the ESC key is pressed.
- * 
  * @param keycode 
  * @param img 
  * @return int 
@@ -24,7 +23,6 @@ int	ft_esc(int keycode, t_world *img)
 }
 /**
  * @brief Function to handdle the close event.
- * 
  * @param prog 
  */
 void	ft_set_hooks(t_world *prog)
@@ -34,7 +32,6 @@ void	ft_set_hooks(t_world *prog)
 }
 /**
  * @brief Function to handle the key pressed.
- * 
  * @param keycode 
  * @param img 
  * @return int 
@@ -53,7 +50,6 @@ int	ft_button_press(int keycode, t_world *img)
 }
 /**
  * @brief Function to handle the key release.
- * 
  * @param keycode 
  * @param img 
  */
@@ -74,7 +70,6 @@ void	ft_button_release2(int keycode, t_world *img)
 }
 /**
  * @brief Function to handle the key release.
- * 
  * @param keycode 
  * @param img 
  * @return int 

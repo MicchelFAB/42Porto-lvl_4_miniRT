@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief FIle with functions to handle the mlx events.
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "utils.h"
 /**
  * @brief Function that rotates the camera according to the key pressed.
- * 
  * @param cam 
  * @return t_matrix 
  */
@@ -36,7 +35,6 @@ t_matrix	ft_rotate_camera(t_world *cam)
 }
 /**
  * @brief Function that moves the camera according to the key pressed.
- * 
  * @param cam 
  * @return t_matrix 
  */
@@ -61,7 +59,6 @@ t_matrix	ft_move_camera(t_world *cam)
 }
 /**
  * @brief Function to handle the keys pressed.
- * 
  * @param prog 
  * @return t_matrix 
  */
@@ -97,7 +94,6 @@ void	ft_button_down2(t_world *img, int keycode)
 }
 /**
  * @brief Function to handle the key press.
- * 
  * @param img 
  * @param keycode 
  */

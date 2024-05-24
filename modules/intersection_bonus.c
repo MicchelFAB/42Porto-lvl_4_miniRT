@@ -4,15 +4,14 @@
  * @brief File containing the intersection functions. Complement to the main intersection file.
  * used for the bonus part of the project.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "modules.h"
 /**
  * @brief Calls the intersections according to the shape.
- * 
  * @param i 
  * @param s 
  * @param r 

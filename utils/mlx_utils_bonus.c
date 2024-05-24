@@ -3,16 +3,15 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the functions to handle the mlx events. Bonus functions.
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "utils.h"
 #include "minirt_bonus.h"
 /**
  * @brief Function to update the image when a key is pressed or hold.
- * 
  * @param wrd 
  * @return int 
  */
@@ -37,7 +36,6 @@ int	ft_update(void *wrd)
 }
 /**
  * @brief Function to identify the key pressed and return the transformation matrix.
- * 
  * @param prog 
  */
 void	ft_set_hooks_bonus(t_world *prog)
@@ -50,7 +48,6 @@ void	ft_set_hooks_bonus(t_world *prog)
 }
 /**
  * @brief Function to open the window.
- * 
  * @param prog 
  */
 void	ft_open_window_bonus(t_world *prog)

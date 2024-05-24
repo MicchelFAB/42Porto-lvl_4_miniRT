@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the elements of scene for the mandatory part.
  * @version 0.1
- * @date 2024-05-23
+ * @date 2024-05-23 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "parse.h"
 /**
  * @brief Function to get the ambient light.
- * 
  * @param scene 
  */
 void	get_1_amb(t_scene *scene)
@@ -22,7 +21,6 @@ void	get_1_amb(t_scene *scene)
 }
 /**
  * @brief Function to get the camera information.
- * 
  * @param scene 
  */
 void	get_2_cam(t_scene *scene)
@@ -45,7 +43,6 @@ void	get_2_cam(t_scene *scene)
 }
 /**
  * @brief Function to set the camera rotation.
- * 
  * @param scene 
  * @return t_camera* 
  */
@@ -82,7 +79,6 @@ t_camera	*ft_setup_camera(t_scene *scene)
 }
 /**
  * @brief Function to get the light information.
- * 
  * @param scene 
  */
 void	get_3_light(t_scene *scene)

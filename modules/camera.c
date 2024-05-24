@@ -3,16 +3,15 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the camera functions.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "modules.h"
 
 /**
  * @brief Creates a camera.
- * 
  * @param hsize The horizontal size.
  * @param vsize The vertical size.
  * @param fov The field of view.
@@ -49,7 +48,6 @@ t_camera	*ft_create_camera(int hsize, int vsize, double fov)
 }
 /**
  * @brief Sets the camera transform.
- * 
  * @param camera The camera.
  * @param transform The transform.
  */
@@ -60,7 +58,6 @@ void	ft_set_camera_transform(t_camera *camera, t_matrix transform)
 }
 /**
  * @brief Function that calculates the ray for a pixel.
- * 
  * @param c 
  * @param x 
  * @param y 
@@ -84,7 +81,6 @@ t_ray	ft_ray_for_pixel(t_camera *c, int x, int y)
 }
 /**
  * @brief Function that renders the image.
- * 
  * @param c The camera.
  * @param w The world.
  * @return t_canvas The rendered image.

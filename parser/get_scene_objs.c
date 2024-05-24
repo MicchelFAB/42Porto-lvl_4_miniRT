@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the objects of scene for the mandatory part.
  * @version 0.1
- * @date 2024-05-23
+ * @date 2024-05-23 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "parse.h"
 /**
  * @brief Function to get the sphere object.
- * 
  * @param scene 
  */
 void	get_4_sp(t_scene *scene)
@@ -32,7 +31,6 @@ void	get_4_sp(t_scene *scene)
 }
 /**
  * @brief Function to get the plane object.
- * 
  * @param scene 
  */
 void	get_5_pl(t_scene *scene)
@@ -55,7 +53,6 @@ void	get_5_pl(t_scene *scene)
 }
 /**
  * @brief Function to get the cylinder object.
- * 
  * @param scene 
  */
 void	get_6_cy(t_scene *scene)

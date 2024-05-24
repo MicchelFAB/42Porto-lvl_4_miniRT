@@ -4,15 +4,14 @@
  * @brief File complementar to ray.c containing functions to calculate the color
  * of a ray. Only used in the bonus part of the project.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "core.h"
 /**
  * @brief Calculate the color of a ray.
- * 
  * @param world The world.
  * @param r The ray.
  * @param remaining The remaining bounces.

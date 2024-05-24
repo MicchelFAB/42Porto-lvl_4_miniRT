@@ -4,10 +4,10 @@
  * @brief File containing the functions to calculate the normal at a point in 
  * the bonus part of the project.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "light.h"
 

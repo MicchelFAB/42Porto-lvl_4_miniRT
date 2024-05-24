@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the elements of scene for the bonus part.
  * @version 0.1
- * @date 2024-05-23
+ * @date 2024-05-23 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "parse.h"
 /**
- * @brief Get the sphere bonus object
- * 
+ * @brief Get the sphere bonus object * 
  * @param scene 
  */
 void	get_4_sp_bonus(t_scene *scene)
@@ -34,8 +33,7 @@ void	get_4_sp_bonus(t_scene *scene)
 	ft_set_shape_transform(scene->new, final);
 }
 /**
- * @brief Get the plane bonus object
- * 
+ * @brief Get the plane bonus object * 
  * @param scene 
  */
 void	get_5_pl_bonus(t_scene *scene)
@@ -61,8 +59,7 @@ void	get_5_pl_bonus(t_scene *scene)
 
 }
 /**
- * @brief Get the cylinder bonus object
- * 
+ * @brief Get the cylinder bonus object * 
  * @param scene 
  */
 void	get_6_cy_bonus(t_scene *scene)
@@ -95,8 +92,7 @@ void	get_6_cy_bonus(t_scene *scene)
 	ft_set_shape_transform(scene->new, final);
 }
 /**
- * @brief Get the cone bonus object
- * 
+ * @brief Get the cone bonus object * 
  * @param scene 
  */
 void	get_7_co(t_scene *scene)
@@ -129,8 +125,7 @@ void	get_7_co(t_scene *scene)
 	ft_set_shape_transform(scene->new, final);
 }
 /**
- * @brief Get the cube bonus object
- * 
+ * @brief Get the cube bonus object * 
  * @param scene 
  */
 void	get_8_cb(t_scene *scene)

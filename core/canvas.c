@@ -3,18 +3,18 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing functions to create, write and free a canvas.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "core.h"
 /**
  * @brief Initialize a canvas with the given width and height.
- * 
  * @param width The width of the canvas.
  * @param height The height of the canvas.
  * @return t_canvas The created canvas.
+ * @see ft_render()
  */
 t_canvas	ft_create_aperture(int width, int height)
 {
@@ -41,7 +41,6 @@ t_canvas	ft_create_aperture(int width, int height)
 }
 /**
  * @brief Free the memory allocated for the canvas.
- * 
  * @param canvas The canvas to be freed.
  */
 void	ft_free_canvas(t_canvas canvas)
@@ -60,7 +59,6 @@ void	ft_free_canvas(t_canvas canvas)
 }
 /**
  * @brief Write a color to a pixel in the canvas.
- * 
  * @param canvas The canvas to write the pixel.
  * @param x The x coordinate of the pixel.
  * @param y The y coordinate of the pixel.
@@ -74,7 +72,6 @@ void	ft_write_pixel(t_canvas canvas, int x, int y, t_color color)
 }
 /**
  * @brief Get the color of a pixel in the canvas.
- * 
  * @param canvas The canvas to get the pixel color.
  * @param x The x coordinate of the pixel.
  * @param y The y coordinate of the pixel.
@@ -88,7 +85,6 @@ t_vec3	ft_pixel_at(t_canvas canvas, int x, int y)
 }
 /**
  * @brief Clamp a value between 0 and 255.
- * 
  * @param value The value to be clamped.
  * @return int The clamped value.
  */

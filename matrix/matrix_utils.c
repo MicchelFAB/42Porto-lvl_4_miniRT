@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the matrix utility functions.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "matrix.h"
 /**
  * @brief Function to create a rotation matrix, to the shape.
- * 
  * @param shape 
  * @return t_matrix 
  */
@@ -44,7 +43,6 @@ t_matrix	ft_aux_rotation(t_shapes *shape)
 }
 /**
  * @brief Function to create a rotation matrix, to the camera.
- * 
  * @param shape 
  * @return t_matrix 
  */
@@ -77,7 +75,6 @@ t_matrix	ft_cam_rotation(t_camera *shape)
 }
 /**
  * @brief Function to get the submatrix of a matrix.
- * 
  * @param a The matrix.
  * @param row The row to be removed.
  * @param col The column to be removed.

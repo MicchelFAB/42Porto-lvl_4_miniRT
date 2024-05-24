@@ -1,0 +1,23 @@
+<map id="includes/libft.h" name="includes/libft.h">
+<area shape="rect" id="Node000001" title="Include file for the libft functions." alt="" coords="178,5,295,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,76,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,33,86,76,85,71,204,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="100,79,171,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,33,165,73,162,68,219,28"/>
+<area shape="rect" id="Node000004" href="$ft__printf_8h.html" title="Include file for the ft_printf function." alt="" coords="195,79,279,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="239,31,239,65,234,65,234,31"/>
+<area shape="rect" id="Node000007" href="$get__next__line_8h.html" title="Include file for the get_next_line function." alt="" coords="303,79,426,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="252,28,326,70,324,75,249,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="118,152,193,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="225,106,181,145,177,141,222,102"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="217,152,291,177"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="242,104,251,138,245,140,237,105"/>
+<area shape="poly" id="edge7_Node000007_Node000001" title=" " alt="" coords="349,81,275,39,278,35,352,76"/>
+<area shape="poly" id="edge11_Node000007_Node000006" title=" " alt="" coords="348,106,285,147,282,142,345,102"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="316,152,379,177"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="364,105,356,140,351,138,359,104"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="403,152,470,177"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="378,102,417,140,413,144,375,106"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="495,152,565,177"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="392,102,492,144,489,149,390,106"/>
+</map>

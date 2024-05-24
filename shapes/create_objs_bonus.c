@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File with functions to create objects for the bonus part of the project.
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "minirt.h"
 /**
  * @brief Function to initialize a new cone object.
- * 
  * @return t_cone* 
  */
 t_cone	*ft_create_cone(void)
@@ -29,8 +28,7 @@ t_cone	*ft_create_cone(void)
 	return (cone);
 }
 /**
- * @brief Function to initialize a new cube
- * 
+ * @brief Function to initialize a new cube * 
  * @return t_cube* 
  */
 t_cube	*ft_create_cube(void)
@@ -44,7 +42,6 @@ t_cube	*ft_create_cube(void)
 }
 /**
  * @brief Function to initialize a new triangle object.
- * 
  * @return t_triangle* 
  */
 t_triangle	*ft_create_triangle(void)

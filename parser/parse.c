@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the parsing functions for the mandatory part.
  * @version 0.1
- * @date 2024-05-23
+ * @date 2024-05-23 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "parse.h"
 /**
  * @brief Function to check if the character is valid.
- * 
  * @param c 
  * @return int 
  */
@@ -21,7 +20,6 @@ static int	ft_validchar(char c)
 }
 /**
  * @brief Function to split the string into scene objects according to the id and number of arguments expected.
- * 
  * @param scene 
  * @param id 
  */
@@ -52,7 +50,6 @@ static void	scene_line_split(t_scene *scene, int id)
 }
 /**
  * @brief Function to get the scene objects according to the id.
- * 
  * @param scene 
  * @param id 
  */
@@ -84,7 +81,6 @@ static void	get_scene(t_scene *scene, int id)
 }
 /**
  * @brief Function to check the scene parsing occurred correctly.
- * 
  * @param scene 
  * @param fd 
  */
@@ -99,7 +95,6 @@ void	ft_scene_check(t_scene *scene, int fd)
 }
 /**
  * @brief Function to open the file and parse the scene.
- * 
  * @param file 
  * @param scene 
  */

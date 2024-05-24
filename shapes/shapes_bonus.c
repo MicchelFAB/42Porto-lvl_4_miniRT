@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File to handle the parsing of the bonus shapes.
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "shapes.h"
 /**
  * @brief Function to select the shape to be created.
- * 
  * @param type 
  * @return t_shapes* 
  */

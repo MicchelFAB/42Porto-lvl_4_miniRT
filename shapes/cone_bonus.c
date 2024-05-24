@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the functions to handle the cone shape.
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "minirt.h"
 /**
  * @brief Function to form the cone equation.
- * 
  * @param ray 
  * @return t_bhask 
  */
@@ -38,7 +37,6 @@ t_bhask	ft_bhask_form_cone(t_ray ray)
 }
 /**
  * @brief Function to handle the cone intersections.
- * 
  * @param i 
  * @param s 
  * @param ray 
@@ -69,7 +67,6 @@ void	ft_cone_intersections(t_intersections **i, t_shapes *s, t_ray ray)
 }
 /**
  * @brief Function to check the cone caps.
- * 
  * @param ray 
  * @param t 
  * @param range 
@@ -87,7 +84,6 @@ bool	ft_check_cone_cap(t_ray ray, double t, double range)
 }
 /**
  * @brief Function to handle the cone caps intersections.
- * 
  * @param i 
  * @param s 
  * @param ray 
@@ -107,7 +103,6 @@ void	ft_cone_caps_intersections(t_intersections **i, t_shapes *s, t_ray ray)
 }
 /**
  * @brief Function to get the normal at the cone.
- * 
  * @param cone 
  * @param point 
  * @return t_vec3 

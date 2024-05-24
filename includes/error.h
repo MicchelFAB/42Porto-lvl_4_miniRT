@@ -3,10 +3,12 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief Include file with all the error messages.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ *  * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
+ * @note This file is part of the MiniRT project.
  * 
+ * @copyright Copyright (c) 2024 * 
  */
 #ifndef ERROR_H
 # define ERROR_H

@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the intersection functions.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "modules.h"
 /**
  * @brief Calls the intersections according to the shape.
- * 
  * @param i 
  * @param s 
  * @param r 
@@ -30,7 +29,6 @@ void	ft_intersect(t_intersections **i, t_shapes *s, t_ray r)
 }
 /**
  * @brief Creates an intersection.
- * 
  * @param t 
  * @param s 
  * @return t_intersection* 
@@ -48,7 +46,6 @@ t_intersection	*ft_create_intersection(double t, t_shapes *s)
 }
 /**
  * @brief Adds an intersection to the list of intersections.
- * 
  * @param lst 
  * @param s 
  * @param t 
@@ -82,7 +79,6 @@ void	ft_add_sorted_intersection(t_intersections **lst, t_shapes *s, double t)
 }
 /**
  * @brief Returns the hit intersection.
- * 
  * @param i 
  * @return t_intersection* 
  */

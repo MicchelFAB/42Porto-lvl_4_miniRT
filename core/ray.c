@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing functions to create and manipulate rays.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "core.h"
 /**
  * @brief Create a ray.
- * 
  * @param origin The origin of the ray.
  * @param direction The direction of the ray.
  * @return t_ray The created ray.
@@ -26,7 +25,6 @@ t_ray	ft_create_ray(t_point origin, t_vec3 direction)
 }
 /**
  * @brief Calculate the position of a ray at a given distance.
- * 
  * @param ray The ray.
  * @param t The distance.
  * @return t_point The position of the ray.
@@ -37,7 +35,6 @@ t_point	ft_ray_position(t_ray ray, double t)
 }
 /**
  * @brief Transform a ray by a matrix.
- * 
  * @param ray The ray.
  * @param matrix The matrix.
  * @return t_ray The transformed ray.
@@ -52,7 +49,6 @@ t_ray	ft_transform_ray(t_ray ray, t_matrix matrix)
 }
 /**
  * @brief Calculate the color of a ray.
- * 
  * @param world The world.
  * @param r The ray.
  * @param remaining The remaining bounces.

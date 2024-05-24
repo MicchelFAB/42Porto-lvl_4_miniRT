@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File with the complementary functions to handle the mlx events.
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "utils.h"
 /**
  * @brief Function to map a pixel to the image.
- * 
  * @param data 
  * @param x 
  * @param y 
@@ -26,7 +25,6 @@ void	ft_mlx_pixel_put(t_image *data, int x, int y, t_color color)
 }
 /**
  * @brief Function to create a new image.
- * 
  * @param data 
  * @param x 
  * @param y 
@@ -49,7 +47,6 @@ void	ft_panel_window(t_image *data, int x, int y, t_color **color)
 }
 /**
  * @brief FUnciton to render the panel.
- * 
  * @param d 
  * @param up_lft 
  * @param dw_rht 
@@ -72,7 +69,6 @@ void	ft_panel_render(t_image *d, t_point up_lft, t_point dw_rht, t_color **c)
 }
 /**
  * @brief Function to open the window.
- * 
  * @param prog 
  */
 void	ft_open_window(t_world *prog)
@@ -92,7 +88,6 @@ void	ft_open_window(t_world *prog)
 }
 /**
  * @brief Function to handdle the error events.
- * 
  * @param msg 
  * @param scene 
  */

@@ -3,10 +3,10 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief Include file for the get_next_line function.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H

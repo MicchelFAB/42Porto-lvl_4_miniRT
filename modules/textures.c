@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the texture functions.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "modules.h"
 /**
  * @brief Function to load the xpm file to the matrix.
- * 
  * @param scene 
  * @param xpm_file 
  * @param err 
@@ -51,7 +50,6 @@ void	ft_load_xpm_to_matrix(t_canvas *scene, char *xpm_file, t_scene *err)
 }
 /**
  * @brief Function to read the xpm file.
- * 
  * @param xpm_file 
  * @param xpm_text 
  * @return t_canvas 
@@ -88,7 +86,6 @@ t_canvas	ft_read_xpm(char *xpm_file, t_scene *xpm_text)
 }
 /**
  * @brief Function to write the xpm pattern on an plane object.
- * 
  * @param pattern 
  * @param point 
  * @return t_color 
@@ -110,7 +107,6 @@ t_color	ft_xpm_at_plane(t_pattern pattern, t_point point)
 }
 /**
  * @brief Function to create a xpm pattern to a sphere.
- * 
  * @param pattern 
  * @param point 
  * @return t_color 

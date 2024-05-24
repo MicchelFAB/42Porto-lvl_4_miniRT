@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the functions to invert a matrix.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "matrix.h"
 /**
  * @brief Get the minor of a matrix.
- * 
  * @param a The matrix.
  * @param row The row.
  * @param col The column.
@@ -28,7 +27,6 @@ double	ft_get_minor(t_matrix a, int row, int col)
 }
 /**
  * @brief Get the cofactor of a matrix.
- * 
  * @param a The matrix.
  * @param row The row.
  * @param col The column.
@@ -48,7 +46,6 @@ double	ft_get_cofactor(t_matrix a, int row, int col)
 }
 /**
  * @brief Get the determinant of a matrix.
- * 
  * @param a The matrix.
  * @return double The determinant.
  */
@@ -72,7 +69,6 @@ double	ft_get_determinant(t_matrix a)
 }
 /**
  * @brief Creates the invert matrix of a matrix.
- * 
  * @param a The matrix.
  * @return t_matrix The invert matrix.
  */
@@ -102,7 +98,6 @@ t_matrix	ft_create_invert_matrix(t_matrix a)
 }
 /**
  * @brief Check if a matrix is invertible.
- * 
  * @param a The matrix.
  * @return true If the matrix is invertible.\
  * @return false If the matrix is not invertible.

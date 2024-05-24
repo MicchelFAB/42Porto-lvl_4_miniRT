@@ -1,0 +1,112 @@
+<map id="includes/parse.h" name="includes/parse.h">
+<area shape="rect" id="Node000001" title="Include file for the parsing functions." alt="" coords="3641,5,3769,31"/>
+<area shape="rect" id="Node000002" href="$minirt_8h.html" title="Include file for the main functions." alt="" coords="2496,86,2627,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3628,22,3449,23,3200,31,2916,49,2771,63,2628,81,2592,89,2591,83,2628,76,2770,58,2916,44,3200,26,3449,18,3628,16"/>
+<area shape="rect" id="Node000050" href="$get__colour_8c.html" title="File containing the functions to get the colour." alt="" coords="2651,86,2797,111"/>
+<area shape="poly" id="edge47_Node000001_Node000050" title=" " alt="" coords="3627,23,3476,28,3273,38,3042,55,2810,81,2770,89,2769,83,2809,76,3042,49,3272,32,3476,22,3627,18"/>
+<area shape="rect" id="Node000051" href="$get__coord_8c.html" title="File containing the functions to get the coordinates." alt="" coords="2821,86,2963,111"/>
+<area shape="poly" id="edge48_Node000001_Node000051" title=" " alt="" coords="3628,25,3340,42,3159,58,2976,81,2938,89,2937,83,2976,76,3158,53,3340,37,3627,19"/>
+<area shape="rect" id="Node000052" href="$get__int_8c.html" title="File containing the functions to get the integer values." alt="" coords="2988,86,3111,111"/>
+<area shape="poly" id="edge49_Node000001_Node000052" title=" " alt="" coords="3628,26,3401,44,3262,60,3123,81,3090,89,3089,83,3122,76,3261,55,3400,39,3627,21"/>
+<area shape="rect" id="Node000053" href="$get__ratio_8c.html" title="File containing the functions to get the ratio values." alt="" coords="3135,86,3271,111"/>
+<area shape="poly" id="edge50_Node000001_Node000053" title=" " alt="" coords="3628,31,3469,52,3284,81,3250,89,3248,83,3284,76,3468,46,3627,26"/>
+<area shape="rect" id="Node000054" href="$get__scene__bonus_8c.html" title="File containing the elements of scene for the bonus part." alt="" coords="3295,86,3486,111"/>
+<area shape="poly" id="edge51_Node000001_Node000054" title=" " alt="" coords="3647,37,3437,89,3436,83,3646,31"/>
+<area shape="rect" id="Node000055" href="$get__scene__elem_8c.html" title="File containing the elements of scene for the mandatory part." alt="" coords="3511,86,3695,111"/>
+<area shape="poly" id="edge52_Node000001_Node000055" title=" " alt="" coords="3681,41,3619,88,3616,84,3677,37"/>
+<area shape="rect" id="Node000056" href="$get__scene__objs_8c.html" title="File containing the objects of scene for the mandatory part." alt="" coords="3719,86,3897,111"/>
+<area shape="poly" id="edge53_Node000001_Node000056" title=" " alt="" coords="3733,37,3794,84,3791,88,3730,41"/>
+<area shape="rect" id="Node000057" href="$get__scene__objs__bonus_8c.html" title="File containing the elements of scene for the bonus part." alt="" coords="3922,79,4089,119"/>
+<area shape="poly" id="edge54_Node000001_Node000057" title=" " alt="" coords="3763,31,3934,76,3933,81,3761,37"/>
+<area shape="rect" id="Node000058" href="$get__scene__objs__bonus__2_8c.html" title="File complementary to get_scene_bonus.c containing the elements of scene for the bonus part." alt="" coords="4113,79,4279,119"/>
+<area shape="poly" id="edge55_Node000001_Node000058" title=" " alt="" coords="3783,27,4102,76,4113,78,4112,83,4101,81,3783,33"/>
+<area shape="rect" id="Node000059" href="$get__scene__transf_8c.html" title="File containing the transformation functions for the mandatory part." alt="" coords="4303,86,4491,111"/>
+<area shape="poly" id="edge56_Node000001_Node000059" title=" " alt="" coords="3784,23,4012,43,4292,76,4338,83,4337,89,4292,81,4012,49,3783,28"/>
+<area shape="rect" id="Node000060" href="$get__scene__transf__bonus_8c.html" title="File containing the transformation functions for the bonus part." alt="" coords="4516,79,4695,119"/>
+<area shape="poly" id="edge57_Node000001_Node000060" title=" " alt="" coords="3784,20,4099,37,4301,54,4504,76,4516,78,4516,83,4504,81,4300,59,4099,43,3783,25"/>
+<area shape="rect" id="Node000061" href="$parse_8c.html" title="File containing the parsing functions for the mandatory part." alt="" coords="4719,86,4833,111"/>
+<area shape="poly" id="edge58_Node000001_Node000061" title=" " alt="" coords="3783,16,3951,17,4181,25,4443,43,4576,58,4707,76,4740,83,4739,89,4706,81,4576,63,4442,49,4181,30,3951,23,3783,21"/>
+<area shape="rect" id="Node000062" href="$parse__bonus_8c.html" title="File containing the parsing functions for the bonus part." alt="" coords="4857,86,5017,111"/>
+<area shape="poly" id="edge59_Node000001_Node000062" title=" " alt="" coords="3784,17,3972,19,4235,28,4538,46,4694,59,4846,76,4888,83,4887,89,4845,81,4693,64,4538,51,4235,33,3972,25,3784,22"/>
+<area shape="rect" id="Node000063" href="$parse__utils_8c.html" title="File containing the utility functions for the parsing." alt="" coords="5041,86,5191,111"/>
+<area shape="poly" id="edge60_Node000001_Node000063" title=" " alt="" coords="3783,18,4407,38,4767,55,4916,65,5030,76,5070,83,5069,89,5029,81,4916,70,4766,60,4407,43,3783,24"/>
+<area shape="poly" id="edge32_Node000002_Node000001" title=" " alt="" coords="2628,80,2652,76,2794,58,2940,44,3224,26,3469,18,3641,16,3641,22,3469,23,3224,31,2941,49,2795,63,2652,81,2629,86"/>
+<area shape="rect" id="Node000003" href="$core_8h.html" title="Include all the headers of the core module." alt="" coords="807,174,927,199"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="2482,106,927,185,927,179,2482,101"/>
+<area shape="rect" id="Node000012" href="$light_8h.html" title="Include file for the light functions." alt="" coords="1729,174,1850,199"/>
+<area shape="poly" id="edge12_Node000002_Node000012" title=" " alt="" coords="2482,111,1851,181,1850,175,2482,105"/>
+<area shape="rect" id="Node000017" href="$minirt__bonus_8h.html" title="Include file for the bonus functions. This file contains declarations for bonus functions and structu..." alt="" coords="2066,174,2243,199"/>
+<area shape="poly" id="edge18_Node000002_Node000017" title=" " alt="" coords="2494,117,2209,177,2208,171,2493,112"/>
+<area shape="rect" id="Node000018" href="$utils_8h.html" title="Include file for the utils functions." alt="" coords="1944,255,2064,280"/>
+<area shape="poly" id="edge35_Node000002_Node000018" title=" " alt="" coords="2482,104,2369,109,2240,120,2122,139,2076,152,2043,169,2024,188,2011,212,2004,235,2002,255,1996,254,1999,234,2006,210,2020,185,2040,165,2074,147,2121,134,2239,114,2369,103,2482,99"/>
+<area shape="rect" id="Node000026" href="$mlx__auxiliar_8c.html" title="File with functions to handle the mlx events.(UNUSED)" alt="" coords="2443,255,2589,280"/>
+<area shape="poly" id="edge46_Node000002_Node000026" title=" " alt="" coords="2483,113,2379,135,2336,150,2310,168,2302,186,2304,200,2315,214,2333,225,2385,243,2444,255,2443,260,2384,248,2331,230,2311,218,2299,203,2296,185,2306,165,2334,145,2378,129,2482,108"/>
+<area shape="rect" id="Node000028" href="$modules_8h.html" title="Include file for the modules functions." alt="" coords="2319,174,2467,199"/>
+<area shape="poly" id="edge28_Node000002_Node000028" title=" " alt="" coords="2521,120,2411,176,2409,171,2519,115"/>
+<area shape="rect" id="Node000036" href="$shapes_8h.html" title="Include file for the shapes functions." alt="" coords="2492,174,2631,199"/>
+<area shape="poly" id="edge33_Node000002_Node000036" title=" " alt="" coords="2556,125,2558,173,2552,174,2550,125"/>
+<area shape="rect" id="Node000040" href="$main_8c.html" title="Main file for the program." alt="" coords="2655,174,2721,199"/>
+<area shape="poly" id="edge36_Node000002_Node000040" title=" " alt="" coords="2591,117,2672,172,2669,176,2588,121"/>
+<area shape="rect" id="Node000041" href="$reflection_8c.html" title="File containing the reflection and refraction functions." alt="" coords="2745,174,2900,199"/>
+<area shape="poly" id="edge37_Node000002_Node000041" title=" " alt="" coords="2610,113,2788,171,2787,176,2609,118"/>
+<area shape="rect" id="Node000042" href="$reflection__bonus_8c.html" title="File containing the reflection and refraction functions." alt="" coords="2925,167,3067,207"/>
+<area shape="poly" id="edge38_Node000002_Node000042" title=" " alt="" coords="2621,112,2641,116,2776,140,2912,164,2925,167,2924,172,2912,169,2775,146,2639,121,2620,117"/>
+<area shape="rect" id="Node000043" href="$cone__bonus_8c.html" title="File containing the functions to handle the cone shape." alt="" coords="3092,174,3252,199"/>
+<area shape="poly" id="edge39_Node000002_Node000043" title=" " alt="" coords="2618,112,2640,116,2763,133,2860,141,2957,148,3080,164,3121,171,3120,177,3080,169,2956,154,2860,147,2763,139,2640,121,2617,117"/>
+<area shape="rect" id="Node000044" href="$create__objs_8c.html" title="File with functions to create objects for the project." alt="" coords="3277,174,3435,199"/>
+<area shape="poly" id="edge40_Node000002_Node000044" title=" " alt="" coords="2618,112,2640,116,2735,129,2815,136,2952,142,3089,146,3264,164,3306,171,3305,177,3264,169,3089,152,2952,147,2815,142,2734,134,2640,121,2617,117"/>
+<area shape="rect" id="Node000045" href="$create__objs__bonus_8c.html" title="File with functions to create objects for the bonus part of the project." alt="" coords="3460,167,3607,207"/>
+<area shape="poly" id="edge41_Node000002_Node000045" title=" " alt="" coords="2617,112,2640,116,2763,131,2866,139,3044,141,3222,143,3326,150,3448,164,3460,166,3460,171,3448,169,3325,155,3221,148,3044,147,2866,144,2762,136,2640,121,2616,117"/>
+<area shape="rect" id="Node000046" href="$cylinder_8c.html" title="File containing the functions to handle the cylinder shape." alt="" coords="3631,174,3766,199"/>
+<area shape="poly" id="edge42_Node000002_Node000046" title=" " alt="" coords="2617,112,2640,116,2788,133,2914,141,3025,142,3129,140,3233,138,3345,140,3471,147,3619,164,3657,171,3656,177,3618,169,3470,152,3344,145,3233,144,3129,146,3025,147,2914,146,2788,138,2640,121,2616,117"/>
+<area shape="rect" id="Node000047" href="$plane_8c.html" title="File containing the functions to handle the plane shape." alt="" coords="3790,174,3909,199"/>
+<area shape="poly" id="edge43_Node000002_Node000047" title=" " alt="" coords="2616,112,2640,116,2813,135,2959,142,3089,142,3210,138,3331,134,3460,134,3607,143,3779,164,3813,171,3812,177,3778,169,3606,148,3460,140,3331,139,3210,143,3089,147,2959,147,2812,140,2640,121,2615,117"/>
+<area shape="rect" id="Node000048" href="$shapes_8c.html" title="File to handle the parsing of the shapes." alt="" coords="3933,174,4062,199"/>
+<area shape="poly" id="edge44_Node000002_Node000048" title=" " alt="" coords="2616,112,2640,116,2834,137,2999,145,3145,144,3281,139,3417,134,3563,134,3728,142,3922,164,3958,171,3957,177,3921,169,3727,148,3562,139,3417,140,3281,144,3145,149,2999,150,2834,142,2640,121,2615,117"/>
+<area shape="rect" id="Node000049" href="$sphere_8c.html" title="File containing the functions to handle the sphere shape." alt="" coords="4086,174,4213,199"/>
+<area shape="poly" id="edge45_Node000002_Node000049" title=" " alt="" coords="2616,112,2640,116,2857,139,3042,147,3205,145,3357,139,3510,132,3673,131,3858,140,4075,164,4111,171,4110,177,4074,169,3857,145,3673,136,3510,138,3358,144,3205,150,3042,152,2857,144,2640,121,2615,117"/>
+<area shape="poly" id="edge11_Node000003_Node000002" title=" " alt="" coords="940,179,2495,101,2496,106,941,184"/>
+<area shape="rect" id="Node000004" href="$canvas_8c.html" title="File containing functions to create, write and free a canvas." alt="" coords="1183,255,1294,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="935,200,1185,252,1184,257,934,205"/>
+<area shape="rect" id="Node000005" href="$computations_8c.html" title="File containing functions to prepare computations and calculate the surface color of an object." alt="" coords="5,255,160,280"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="793,197,520,222,172,257,160,259,160,253,172,252,519,217,793,192"/>
+<area shape="rect" id="Node000006" href="$computations__bonus_8c.html" title="File containing functions to prepare computations and calculate the surface color of an object...." alt="" coords="184,255,384,280"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="794,200,369,257,369,252,793,195"/>
+<area shape="rect" id="Node000007" href="$computations__utils_8c.html" title="File containing functions to prepare computations and calculate the surface color of an object." alt="" coords="408,255,597,280"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="801,205,556,257,555,252,800,200"/>
+<area shape="rect" id="Node000008" href="$ray_8c.html" title="File containing functions to create and manipulate rays." alt="" coords="622,255,706,280"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="826,207,694,257,693,252,824,202"/>
+<area shape="rect" id="Node000009" href="$ray__bonus_8c.html" title="File complementar to ray.c containing functions to calculate the color of a ray. Only used in the bon..." alt="" coords="730,255,862,280"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="849,211,808,256,804,253,845,208"/>
+<area shape="rect" id="Node000010" href="$world_8c.html" title="File containing functions to create and manipulate the world." alt="" coords="887,255,988,280"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="888,208,929,253,925,256,884,211"/>
+<area shape="rect" id="Node000011" href="$world__bonus_8c.html" title="This file is complementary to the world.c file. It contains the functions that are used to calculate ..." alt="" coords="1012,255,1159,280"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="912,201,1054,252,1053,257,911,206"/>
+<area shape="poly" id="edge13_Node000012_Node000002" title=" " alt="" coords="1864,175,2495,105,2496,111,1864,180"/>
+<area shape="rect" id="Node000013" href="$lights_8c.html" title="File containing the functions to calculate the normal at a point where the light hits the object." alt="" coords="1817,255,1919,280"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="1813,207,1858,253,1854,256,1809,211"/>
+<area shape="rect" id="Node000014" href="$lights__bonus_8c.html" title="File containing the functions to calculate the normal at a point in the bonus part of the project." alt="" coords="1318,255,1466,280"/>
+<area shape="poly" id="edge15_Node000012_Node000014" title=" " alt="" coords="1719,205,1450,257,1449,252,1718,199"/>
+<area shape="rect" id="Node000015" href="$shadow_8c.html" title="File containing the functions to calculate if a point is in shadow." alt="" coords="1491,255,1605,280"/>
+<area shape="poly" id="edge16_Node000012_Node000015" title=" " alt="" coords="1742,206,1584,257,1582,252,1740,201"/>
+<area shape="rect" id="Node000016" href="$shadow__bonus_8c.html" title="File containing the functions to calculate if a point is in shadow. Complemetary to the core function..." alt="" coords="1629,255,1792,280"/>
+<area shape="poly" id="edge17_Node000012_Node000016" title=" " alt="" coords="1770,211,1724,256,1720,253,1766,207"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="2115,208,2021,257,2018,252,2113,203"/>
+<area shape="rect" id="Node000023" href="$mlx__utils__bonus_8c.html" title="File containing the functions to handle the mlx events. Bonus functions." alt="" coords="2119,328,2289,353"/>
+<area shape="poly" id="edge26_Node000017_Node000023" title=" " alt="" coords="2239,199,2325,221,2360,236,2382,253,2390,268,2389,282,2382,294,2369,304,2333,320,2290,331,2289,325,2332,315,2366,300,2378,291,2384,281,2384,269,2378,256,2357,241,2323,226,2238,205"/>
+<area shape="rect" id="Node000024" href="$main__bonus_8c.html" title="File containing the main function for the bonus part of the project." alt="" coords="2256,255,2368,280"/>
+<area shape="poly" id="edge23_Node000017_Node000024" title=" " alt="" coords="2191,203,2290,252,2288,257,2188,208"/>
+<area shape="rect" id="Node000025" href="$camera__bonus_8c.html" title="File containing the camera functions. Complement to the main camera file. used for the bonus part of ..." alt="" coords="2613,255,2801,280"/>
+<area shape="poly" id="edge24_Node000017_Node000025" title=" " alt="" coords="2249,199,2627,252,2626,257,2248,204"/>
+<area shape="poly" id="edge25_Node000017_Node000026" title=" " alt="" coords="2221,200,2464,252,2463,257,2220,205"/>
+<area shape="rect" id="Node000027" href="$threads__fun_8c.html" title="File containing the functions to handle the threads." alt="" coords="2089,255,2231,280"/>
+<area shape="poly" id="edge27_Node000017_Node000027" title=" " alt="" coords="2159,213,2162,254,2157,255,2154,213"/>
+<area shape="poly" id="edge20_Node000018_Node000002" title=" " alt="" coords="2016,241,2034,201,2047,181,2064,164,2098,148,2144,134,2261,114,2388,103,2496,99,2496,104,2388,109,2262,120,2145,139,2100,152,2067,169,2051,184,2038,203,2021,243"/>
+<area shape="poly" id="edge21_Node000018_Node000017" title=" " alt="" coords="2044,246,2138,197,2140,202,2046,251"/>
+<area shape="poly" id="edge22_Node000018_Node000023" title=" " alt="" coords="2050,282,2172,325,2170,330,2048,287"/>
+<area shape="poly" id="edge29_Node000028_Node000002" title=" " alt="" coords="2434,166,2544,109,2546,114,2436,170"/>
+<area shape="poly" id="edge31_Node000028_Node000025" title=" " alt="" coords="2453,200,2662,252,2660,257,2451,205"/>
+<area shape="rect" id="Node000029" href="$camera_8c.html" title="File containing the camera functions." alt="" coords="2825,255,2967,280"/>
+<area shape="poly" id="edge30_Node000028_Node000029" title=" " alt="" coords="2457,200,2480,204,2825,253,2824,259,2480,209,2456,205"/>
+<area shape="poly" id="edge34_Node000036_Node000002" title=" " alt="" coords="2567,160,2565,112,2570,111,2572,160"/>
+</map>

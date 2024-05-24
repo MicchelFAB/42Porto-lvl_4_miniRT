@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the parsing functions for the bonus part.
  * @version 0.1
- * @date 2024-05-23
+ * @date 2024-05-23 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "parse.h"
 /**
  * @brief Function to check if the character is valid.
- * 
  * @param c 
  * @return int 
  */
@@ -21,7 +20,6 @@ static int	ft_validchar_bonus(char c)
 }
 /**
  * @brief Function to split the line.
- * 
  * @param scene 
  * @param id 
  */
@@ -52,7 +50,6 @@ static void	scene_line_split_bonus(t_scene *scene, int id)
 }
 /**
  * @brief Function to get the scene.
- * 
  * @param scene 
  * @param id 
  */
@@ -81,7 +78,6 @@ static void	get_scene_bonus(t_scene *scene, int id)
 }
 /**
  * @brief Function to open the file.
- * 
  * @param file 
  * @param scene 
  */

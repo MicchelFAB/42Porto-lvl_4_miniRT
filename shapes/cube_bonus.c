@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the functions to handle the cube shape.
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "shapes.h"
 /**
  * @brief Function to check the axis of the cube.
- * 
  * @param t 
  * @param origin 
  * @param direction 
@@ -43,7 +42,6 @@ void	ft_check_axis(double *t, double origin, double direction)
 }
 /**
  * @brief Function to handle the cube intersections.
- * 
  * @param intersections 
  * @param cube 
  * @param ray 
@@ -68,7 +66,6 @@ void	ft_cube_intersections(t_intersections **intersections, t_shapes *cube, t_ra
 }
 /**
  * @brief Function to calculate the normal of the cube.
- * 
  * @param world_point 
  * @return t_vec3 
  */

@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the functions to handle the triangle shape.
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "shapes.h"
 /**
  * @brief Function to initialize a new triangle object.
- * 
  * @param t 
  * @param p1 
  * @param p2 
@@ -28,7 +27,6 @@ void	ft_set_triangle_points(t_triangle *t, t_point p1, t_point p2, t_point p3)
 }
 /**
  * @brief Function to get the normal of the triangle at a given point.
- * 
  * @param t 
  * @param world_point 
  * @return t_vec3 
@@ -40,7 +38,6 @@ t_vec3	ft_triangle_normal_at(t_triangle *t, t_point world_point)
 }
 /**
  * @brief Function to handle the triangle intersections.
- * 
  * @param xs 
  * @param s 
  * @param r 

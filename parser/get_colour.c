@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the functions to get the colour.
  * @version 0.1
- * @date 2024-05-23
+ * @date 2024-05-23 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "parse.h"
 /**
  * @brief Function to check if the number is between 0 and 255.
- * 
  * @param n 
  * @return true 
  * @return false 
@@ -24,7 +23,6 @@ bool	ft_is_rgb(int n)
 }
 /**
  * @brief Function to transform the colour from 0 to 255 to 0 to 1.
- * 
  * @param color 
  * @return double 
  */
@@ -34,7 +32,6 @@ double	ft_normalize_color(double color)
 }
 /**
  * @brief Function to transform the colour from 0 to 1 to 0 to 255.
- * 
  * @param color 
  * @return int 
  */
@@ -51,7 +48,6 @@ int	ft_rgb_to_int(t_color color)
 }
 /**
  * @brief Function to get the colour.
- * 
  * @param str 
  * @param code 
  * @param scene 
@@ -87,7 +83,6 @@ t_color	ft_get_colour(char *str, char *code, t_scene *scene)
 }
 /**
  * @brief Function to transform the int to rgb.
- * 
  * @param color 
  * @return t_color 
  */

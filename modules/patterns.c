@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the pattern functions.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "modules.h"
 /**
  * @brief Initializes a pattern.
- * 
  * @param pattern_type 
  * @param a 
  * @param b 
@@ -31,7 +30,6 @@ t_pattern	ft_create_pattern(int pattern_type, t_color a, t_color b)
 }
 /**
  * @brief Sets the pattern transform.
- * 
  * @param pattern 
  * @param transform 
  */
@@ -42,7 +40,6 @@ void	ft_set_pattern_transform(t_pattern *pattern, t_matrix transform)
 }
 /**
  * @brief Returns the color of the pattern at a given point.
- * 
  * @param pattern 
  * @param object 
  * @param world_point 
@@ -75,7 +72,6 @@ t_color	ft_pattern_at_shape(t_pattern pattern, t_shapes *object, t_point world_p
 }
 /**
  * @brief Create a stripe pattern.
- * 
  * @param pattern 
  * @param point 
  * @return t_color 
@@ -89,7 +85,6 @@ t_color	ft_stripe_at(t_pattern pattern, t_point point)
 }
 /**
  * @brief Create a gradient pattern.
- * 
  * @param pattern 
  * @param point 
  * @return t_color 

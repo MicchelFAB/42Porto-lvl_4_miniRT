@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the functions to handle the cylinder shape.
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "minirt.h"
 /**
  * @brief Function to form the bhaskara equation for the cylinder.
- * 
  * @param ray 
  * @return t_bhask 
  */
@@ -40,7 +39,6 @@ t_bhask	ft_bhask_form_cy(t_ray ray)
 }
 /**
  * @brief Function to handle the cylinder intersections.
- * 
  * @param i 
  * @param s 
  * @param ray 
@@ -64,7 +62,6 @@ void	ft_cylinder_intersections(t_intersections **i, t_shapes *s, t_ray ray)
 }
 /**
  * @brief Function to check if the ray hits the cylinder caps.
- * 
  * @param ray 
  * @param t 
  * @return true 
@@ -81,7 +78,6 @@ bool	ft_check_cap(t_ray ray, double t)
 }
 /**
  * @brief Function to handle the cylinder caps intersections.
- * 
  * @param i 
  * @param s 
  * @param ray 
@@ -102,7 +98,6 @@ void	ft_cylinder_caps_intersections(t_intersections **i, t_shapes *s,
 }
 /**
  * @brief Function to calculate the normal vector at a given point of the cylinder.
- * 
  * @param cyl 
  * @param point 
  * @return t_vec3 

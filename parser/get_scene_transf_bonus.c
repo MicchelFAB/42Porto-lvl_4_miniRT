@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the transformation functions for the bonus part.
  * @version 0.1
- * @date 2024-05-23
+ * @date 2024-05-23 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "parse.h"
 /**
  * @brief Function to transform the cone object.
- * 
  * @param new 
  */
 void	ft_cone_transform(t_shapes *new)
@@ -30,7 +29,6 @@ void	ft_cone_transform(t_shapes *new)
 }
 /**
  * @brief Function to transform the cube object.
- * 
  * @param new 
  */
 void	ft_cube_transform(t_shapes *new)

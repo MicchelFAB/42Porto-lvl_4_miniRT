@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the additional vector operations.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "maths.h"
 /**
  * @brief Negates a vector.
- * 
  * @param vec The vector.
  * @return t_vec3 The negated vector.
  */
@@ -21,7 +20,6 @@ t_vec3	ft_negate(t_vec3 vec)
 }
 /**
  * @brief Calculates the length of a vector.
- * 
  * @param vec The vector.
  * @return double The length of the vector.
  */
@@ -31,7 +29,6 @@ double	ft_length(t_vec3 vec)
 }
 /**
  * @brief Normalizes a vector.
- * 
  * @param vec The vector.
  * @return t_vec3 The normalized vector.
  */

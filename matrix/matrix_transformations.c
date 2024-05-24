@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the matrix transformations.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "matrix.h"
 /**
  * @brief Creates a translation matrix.
- * 
  * @param x The x value.
  * @param y The y value.
  * @param z The z value.
@@ -29,7 +28,6 @@ t_matrix	ft_create_translation_matrix(double x, double y, double z)
 }
 /**
  * @brief Creates a scaling matrix.
- * 
  * @param x The x value.
  * @param y The y value.
  * @param z The z value.
@@ -47,7 +45,6 @@ t_matrix	ft_create_scaling_matrix(double x, double y, double z)
 }
 /**
  * @brief Creates a rotation matrix.
- * 
  * @param axis The axis.
  * @param r The radians.
  * @return t_matrix The rotation matrix.
@@ -82,7 +79,6 @@ t_matrix	ft_create_rotation_matrix(char axis, double r)
 }
 /**
  * @brief Function to create a view transformation matrix. And align the camera with the world.
- * 
  * @param from 
  * @param to 
  * @param up 

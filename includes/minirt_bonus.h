@@ -1,19 +1,16 @@
 /**
  * @file minirt_bonus.h
  * @brief Include file for the bonus functions.
- * 
  * This file contains declarations for bonus functions and structures used
  * in the MiniRT project. These functions include multi-threaded rendering
- * and file parsing.
- * 
+ * and file parsing. 
+ *  
  * @version 0.1
- * @date 2024-05-22
- * 
+ * @date 2024-05-22 
+ * @see https://github.com/your-repo-url (replace with actual repo URL) * 
  * @note This file is part of the MiniRT project.
- * @see https://github.com/your-repo-url (replace with actual repo URL)
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 
 #ifndef MINIRT_BONUS_H

@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the elements of scene for the bonus part.
  * @version 0.1
- * @date 2024-05-23
+ * @date 2024-05-23 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "parse.h"
 /**
  * @brief Function to get the type of the pattern.
- * 
  * @param type 
  * @param scene 
  * @return t_style 
@@ -32,7 +31,6 @@ t_style	ft_get_type(char *type, t_scene *scene)
 }
 /**
  * @brief Function to get the pattern.
- * 
  * @param split 
  * @param scene 
  */
@@ -53,7 +51,6 @@ void	ft_get_patern(char **split, t_scene *scene)
 }
 /**
  * @brief Function to get the image xpm.
- * 
  * @param split 
  * @param scene 
  */
@@ -69,7 +66,6 @@ void	ft_get_imgxpm(char **split, t_scene *scene)
 }
 /**
  * @brief Function to get the reflective values.
- * 
  * @param split 
  * @param scene 
  */
@@ -90,7 +86,6 @@ void	ft_get_reflective(char **split, t_scene *scene)
 }
 /**
  * @brief Function to get the refractive values.
- * 
  * @param split 
  * @param scene 
  */

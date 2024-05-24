@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the vector operations.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "maths.h"
 /**
  * @brief Performs an operation between two vectors.
- * 
  * @param a The first vector.
  * @param op The operation.
  * @param b The second vector.
@@ -38,7 +37,6 @@ t_vec3	ft_operations(t_vec3 a, char op, t_vec3 b)
 }
 /**
  * @brief Performs an operation between a vector and a double.
- * 
  * @param a The vector.
  * @param op The operation.
  * @param b The double.
@@ -56,7 +54,6 @@ t_vec3	ft_oper_specular(t_vec3 a, char op, double b)
 }
 /**
  * @brief Calculates the dot product of two vectors.
- * 
  * @param a The first vector.
  * @param b The second vector.
  * @return double The dot product.
@@ -67,7 +64,6 @@ double	ft_dot(t_vec3 a, t_vec3 b)
 }
 /**
  * @brief Calculates the cross product of two vectors.
- * 
  * @param a The first vector.
  * @param b The second vector.
  * @return t_vec3 The cross product.
@@ -79,7 +75,6 @@ t_vec3	ft_cross(t_vec3 a, t_vec3 b)
 }
 /**
  * @brief Compares two doubles.
- * 
  * @param a The first double.
  * @param b The second double.
  * @return true If the doubles are equal.\

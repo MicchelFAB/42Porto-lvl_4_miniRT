@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the functions to handle the threads.
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "minirt_bonus.h"
 /**
  * @brief Function to handle the threads.
- * 
  * @param arg 
  * @return void* 
  */
@@ -25,7 +24,6 @@ void	*ft_routine(void *arg)
 }
 /**
  * @brief Function to create a new context.
- * 
  * @param id 
  * @param image 
  * @param initial_height 
@@ -45,7 +43,6 @@ t_context	ft_create_context(int id, t_world *image,
 }
 /**
  * @brief Function to loop the context.
- * 
  * @param scene 
  * @return t_context* 
  */
@@ -63,7 +60,6 @@ t_context	*ft_loop_context(t_world *scene)
 }
 /**
  * @brief Function to start the threads.
- * 
  * @param scene 
  */
 void	ft_start_thread(t_world *scene)

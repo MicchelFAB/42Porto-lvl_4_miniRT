@@ -3,10 +3,12 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief Include file for the ft_printf function.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ *  * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
+ * @note This file is part of the MiniRT project.
  * 
+ * @copyright Copyright (c) 2024 * 
  */
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H

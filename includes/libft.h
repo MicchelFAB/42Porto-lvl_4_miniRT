@@ -3,16 +3,16 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief Include file for the libft functions.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <string.h>
 # include <stdint.h>
-# include "printf.h"
+# include "ft_printf.h"
 # include "get_next_line.h"
 
 typedef struct s_list

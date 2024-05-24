@@ -3,16 +3,15 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File with functions to handle the mlx events.(UNUSED)
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "minirt.h"
 #include "minirt_bonus.h"
 /**
  * @brief Function to print the key pressed.
- * 
  * @param keycode 
  * @param param 
  * @return int 
@@ -25,7 +24,6 @@ int	ft_button_print(int keycode, void *param)
 }
 /**
  * @brief Function to print the mouse movement coordinates.
- * 
  * @param x 
  * @param y 
  * @param prog 
@@ -39,7 +37,6 @@ int	ft_mouse(int x, int y, t_world *prog)
 }
 /**
  * @brief Function to print the mouse click.
- * 
  * @param button 
  * @param x 
  * @param y 
@@ -54,7 +51,6 @@ int	ft_mouse_click(int button, int x, int y, t_world *prog)
 }
 /**
  * @brief Function to print the mouse release.
- * 
  * @param button 
  * @param x 
  * @param y 
@@ -69,7 +65,6 @@ int	ft_mouse_release(int button, int x, int y, t_world *prog)
 }
 /**
  * @brief Function to check if the main arguments are valid. For the bonus part.
- * 
  * @param ac 
  */
 void	ft_check_main_bonus(int ac)

@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief Main file for the program.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "minirt.h"
 /**
  * @brief Function to set the shapes.
- * 
  * @param lst 
  * @param scene 
  */
@@ -31,8 +30,7 @@ static void	set_shapes(t_list **lst, t_scene *scene)
 	*lst = scene->objects;
 }
 /**
- * @brief Set the up world object
- * 
+ * @brief Set the up world object * 
  * @param scene 
  * @return t_world* 
  */
@@ -47,7 +45,6 @@ static t_world	*setup_world(t_scene *scene)
 }
 /**
  * @brief Check the main arguments.
- * 
  * @param ac 
  */
 void	ft_check_main(int ac)
@@ -67,7 +64,6 @@ void	ft_check_main(int ac)
 }
 /**
   * @brief Main function.
- * 
  * @param ac 
  * @param av 
  * @return int 

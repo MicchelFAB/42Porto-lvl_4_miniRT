@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the matrix operations.
  * @version 0.1
- * @date 2024-05-22
+ * @date 2024-05-22 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "matrix.h"
 /**
  * @brief Creates a matrix.
- * 
  * @param rows The number of rows.
  * @param cols The number of columns.
  * @param identity_matrix If the matrix is an identity matrix.
@@ -47,7 +46,6 @@ t_matrix	ft_create_matrix(int rows, int cols, bool identity_matrix)
 }
 /**
  * @brief Multiplies two matrices.
- * 
  * @param a The first matrix.
  * @param b The second matrix.
  * @return t_matrix The multiplied matrix.
@@ -80,7 +78,6 @@ t_matrix	ft_multiply_matrix(t_matrix a, t_matrix b)
 }
 /**
  * @brief Multiplies a matrix by a tuple.
- * 
  * @param a The matrix.
  * @param b The tuple.
  * @return t_vec3 The multiplied tuple.
@@ -101,7 +98,6 @@ t_vec3	ft_multiply_matrix_tuple(t_matrix a, t_vec3 b)
 }
 /**
  * @brief Transposes a matrix.
- * 
  * @param a The matrix.
  * @return t_matrix The transposed matrix.
  */
@@ -123,7 +119,6 @@ t_matrix	ft_transpose_matrix(t_matrix a)
 }
 /**
  * @brief Compares two matrices.
- * 
  * @param a The first matrix.
  * @param b The second matrix.
  * @return bool True if the matrices are equal, false otherwise.

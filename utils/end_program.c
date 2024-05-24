@@ -3,15 +3,14 @@
  * @author Michel Batista (michel_fab@outlook.com)
  * @brief File containing the functions to handle the end of the program.
  * @version 0.1
- * @date 2024-05-24
+ * @date 2024-05-24 * 
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 #include "utils.h"
 /**
  * @brief Function to free the memory allocated for the list.
- * 
  * @param lst 
  * @return t_list* 
  */
@@ -28,7 +27,6 @@ t_list	*ft_lst_last(t_list *lst)
 }
 /**
  * @brief Function to free the memory allocated for the list.
- * 
  * @param lst 
  */
 void	ft_free_list(t_list **lst)
@@ -47,7 +45,6 @@ void	ft_free_list(t_list **lst)
 }
 /**
  * @brief FUnciton to free the memory allocated for the intersections.
- * 
  * @param lst 
  */
 void	ft_free_intersections(t_intersections **lst)
@@ -64,7 +61,6 @@ void	ft_free_intersections(t_intersections **lst)
 }
 /**
   @brief Function to manage the necessary memory to be freed.
- * 
  * @param prog 
  */
 void	ft_free_all_allocated_memory(t_world *prog)
@@ -93,7 +89,6 @@ void	ft_free_all_allocated_memory(t_world *prog)
 }
 /**
  * @brief Function to close the program. And destroy the window.
- * 
  * @param prog 
  * @return int 
  */

@@ -1,27 +1,27 @@
 /**
  * @file structs.h
  * @brief Include file for the structures used in the project.
- * 
+ *  
  * This file contains the definitions of various structures used 
  * throughout the MiniRT project. These structures include vectors, 
  * matrices, geometric shapes, lighting models, materials, and more.
- * 
+ *  
  * @version 0.1
- * @date 2024-05-22
- * 
+ * @date 2024-05-22 * 
  * @note This file is part of the MiniRT project.
+ *
  * @see https://github.com/your-repo-url (replace with actual repo URL)
+ * @note This file is part of the MiniRT project.
  * 
- * @copyright Copyright (c) 2024
- * 
+ * @copyright Copyright (c) 2024 * 
  */
 
 #ifndef STRUCTS_H
 # define STRUCTS_H
 
-# define MATRIX_SIZE 4
-# define YES 1
-# define NO 0
+# define MATRIX_SIZE 4 /**< Size of the transformation matrix */
+# define YES 1 /**< Boolean value for true */
+# define NO 0 /**< Boolean value for false */
 
 # include "libft.h"
 # include "key_map.h"
@@ -41,7 +41,6 @@ typedef struct s_vec3
 
 /**
  * @brief Matrix structure.
- * 
  * Represents a 4x4 matrix used for transformations.
  */
 typedef struct s_matrix
@@ -56,7 +55,6 @@ typedef t_vec3 t_point; /**< Point type represented as a vector */
 
 /**
  * @brief Canvas structure.
- * 
  * Represents a drawing surface.
  */
 typedef struct s_canvas
@@ -68,7 +66,6 @@ typedef struct s_canvas
 
 /**
  * @brief Ray structure.
- * 
  * Represents a ray with an origin and direction.
  */
 typedef struct s_ray
@@ -79,7 +76,6 @@ typedef struct s_ray
 
 /**
  * @brief Lighting structure.
- * 
  * Contains information about various lighting components.
  */
 typedef struct s_lighting
@@ -98,7 +94,6 @@ typedef struct s_lighting
 
 /**
  * @brief Light source structure.
- * 
  * Represents a point light source.
  */
 typedef struct s_light
@@ -125,7 +120,6 @@ typedef enum e_style
 
 /**
  * @brief Pattern structure.
- * 
  * Represents a pattern with transformation matrices.
  */
 typedef struct s_pattern
@@ -140,7 +134,6 @@ typedef struct s_pattern
 
 /**
  * @brief Material structure.
- * 
  * Represents the material properties of an object.
  */
 typedef struct s_material
@@ -158,7 +151,6 @@ typedef struct s_material
 
 /**
  * @brief Bhaskara's formula structure.
- * 
  * Used for solving quadratic equations.
  */
 typedef struct s_bhask
@@ -173,7 +165,6 @@ typedef struct s_bhask
 
 /**
  * @brief Sphere structure.
- * 
  * Represents a sphere in 3D space.
  */
 typedef struct s_sphere
@@ -185,7 +176,6 @@ typedef struct s_sphere
 
 /**
  * @brief Plane structure.
- * 
  * Represents a plane in 3D space.
  */
 typedef struct s_plane
@@ -196,7 +186,6 @@ typedef struct s_plane
 
 /**
  * @brief Cylinder structure.
- * 
  * Represents a cylinder in 3D space.
  */
 typedef struct s_cylinder
@@ -213,7 +202,6 @@ typedef struct s_cylinder
 
 /**
  * @brief Cone structure.
- * 
  * Represents a cone in 3D space.
  */
 typedef struct s_cone
@@ -229,7 +217,6 @@ typedef struct s_cone
 
 /**
  * @brief Cube structure.
- * 
  * Represents a cube in 3D space.
  */
 typedef struct s_cube
@@ -241,7 +228,6 @@ typedef struct s_cube
 
 /**
  * @brief Triangle structure.
- * 
  * Represents a triangle in 3D space.
  */
 typedef struct s_triangle
@@ -270,7 +256,6 @@ typedef enum e_type
 
 /**
  * @brief Geometric shapes structure.
- * 
  * Union of different geometric shapes with common properties.
  */
 typedef struct s_shapes
@@ -293,7 +278,6 @@ typedef struct s_shapes
 
 /**
  * @brief Intersection structure.
- * 
  * Represents an intersection between a ray and a shape.
  */
 typedef struct s_intersection
@@ -306,7 +290,6 @@ typedef t_list t_intersections; /**< List of intersections */
 
 /**
  * @brief Image structure.
- * 
  * Represents an image with its properties.
  */
 typedef struct s_image
@@ -321,7 +304,6 @@ typedef struct s_image
 
 /**
  * @brief Computed values structure.
- * 
  * Contains precomputed values for shading and intersection tests.
  */
 typedef struct s_comps
@@ -341,7 +323,6 @@ typedef struct s_comps
 
 /**
  * @brief Ambient light structure.
- * 
  * Represents ambient lighting in the scene.
  */
 typedef struct s_amb
@@ -352,7 +333,6 @@ typedef struct s_amb
 
 /**
  * @brief Camera structure.
- * 
  * Represents a camera in the 3D scene.
  */
 typedef struct s_camera
@@ -371,7 +351,6 @@ typedef struct s_camera
 
 /**
  * @brief Scene structure.
- * 
  * Represents the entire scene including objects, lights, and camera.
  */
 typedef struct s_scene
@@ -391,7 +370,6 @@ typedef struct s_scene
 
 /**
  * @brief World structure.
- * 
  * Represents the entire world including the scene and rendering data.
  */
 typedef struct s_world
@@ -410,7 +388,6 @@ typedef struct s_world
 
 /**
  * @brief Area structure.
- * 
  * Represents a rectangular area.
  */
 typedef struct s_area
