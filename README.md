@@ -2,7 +2,10 @@
 
 MiniRT is a lightweight ray tracing renderer written in C, designed for educational purposes to explore the fundamentals of computer graphics and ray tracing.
 
-![MiniRT Demo](demo_image.png)
+<p align="center">
+<img src="https://github.com/ayogun/42-project-badges/blob/main/badges/minirtm.png" alt="mamaral-'s 42 miniRT Score" /></br>
+<a href="https://github.com/Coday-meric/badge42"><img src="https://badge42.coday.fr/api/v2/cltzzvrp61460201p4yeptz0xk/project/3659606" alt="mamaral-'s 42 miniRT Score" /></a>
+</p>
 
 ## Table of Contents
 
@@ -21,7 +24,7 @@ MiniRT is a lightweight ray tracing renderer written in C, designed for educatio
 - Bonus features include support for custom scene files and ambient lighting, textures, reflection and refraction.
 
    
-   [SEE THE DOCUMENTATION](https://github.com/MicchelFAB/42Porto-lvl_4_miniRT/blob/main/documentation/html/index.html)
+   [SEE THE DOCUMENTATION](https://micchelfab.github.io/42Porto-lvl_4_miniRT/)
 
 ## Installation
 
@@ -81,11 +84,11 @@ MiniRT is a lightweight ray tracing renderer written in C, designed for educatio
 
 The manual.rt scene file contains the instructions to render a simple scene with all the mandatory shapes, camera and light configurations. 
 
-![Manual](demo_image.png)
+![Manual](https://github.com/MicchelFAB/42Porto-lvl_4_miniRT/blob/main/documentation/mandatory.png)
 
 The manual_bonus.rt scene file contains the instructions to render a more complex scene with all the mandatory shapes, camera and light configurations, as well as the bonus shapes and light configurations, patterns, textures and different materials.
 
-![Manual Bonus](demo_image_bonus.gif)
+![Manual Bonus](https://github.com/MicchelFAB/42Porto-lvl_4_miniRT/blob/main/documentation/bonus.gif)
 
 ## Contributing
 
