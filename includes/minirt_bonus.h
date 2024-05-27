@@ -17,7 +17,7 @@
 # define MINIRT_BONUS_H
 
 # define THREADS 16 /**< Number of threads for multi-threaded rendering */
-# define WIDTH_B 500 /**< Width of the bonus image */
+# define WIDTH_B 1024 /**< Width of the bonus image */
 
 # include "minirt.h"
 # include "utils.h"
