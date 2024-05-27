@@ -1,0 +1,40 @@
+# AMBIENT LIGHT
+A 0.2 255,255,255
+
+# CAMERA
+C 0.0,7,-22 0,0,0 70
+
+# LIGHTS
+L -10.0,4.0,-9.0 0.8 255,0,0
+L 0,4.0,-9 0.8 0,255,0
+L 10,4.0,-9.0 0.8 0,0,255
+
+# SPHERE (Reflective)
+sp 10.0,0.0,0.0 5.0 10,10,10 px|textures/earth.xpm rf|1000|0.2
+
+# SPHERE (Refractive)
+sp -10.0,0.0,0.0 5.0 0,0,0 gl|1|1.5|
+
+# SPHERE (Ring Pattern)
+sp 0,3,10 5.0 0,0,0 pt|ring|255,0,0|0,0,255
+
+# PLANE (Textured)
+pl 0.0,-5.0,0.0 0,1,0 255,255,255 px|textures/floor.xpm rf|1000|0.5
+
+# CYLINDER (Textured)
+cy -10,0,10 0,1,0 3.0 4.0 0,255,0 px|textures/gotas.xpm gl|0.5|1.5|
+cy -10,5,10 0,1,0 1.5 4.0 0,255,0 px|textures/gotas.xpm gl|0.5|1.5|
+cy -10,6.4,10 0,1,0 1.7 0.2 255,165,0 rf|1000|0.5
+cy -10,6.5,10 0,1,0 1.5 0.1 255,140,0 rf|1000|0.5
+
+# CONE (Gradient Pattern)
+co -8,5,-10 0,1,0 0.6 15.0 0,255,0 pt|gradient|255,0,0|0,255,255
+
+# CUBE (Reflective)
+cb 0,0,0 0,0,0 3.0 0,0,0 rf|1000|1
+
+# TRIANGLE (Textured)
+tr 7.5,-2,-10 7.5,1,-7.5 10,-2,-5 255,255,255 px|textures/egypt.xpm
+tr 10,-2,-5 7.5,1,-7.5 5,-2,-5 0,255,0 px|textures/egypt.xpm
+tr 5,-2,-5 7.5,1,-7.5 7.5,-2,-10 0,255,0 px|textures/egypt.xpm
+tr 7.5,-2,-10 10,-2,-5 5,-2,-5 0,255,0 px|textures/egypt.xpm

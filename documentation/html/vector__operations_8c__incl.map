@@ -1,0 +1,36 @@
+<map id="math/vector_operations.c" name="math/vector_operations.c">
+<area shape="rect" id="Node000001" title="File containing the vector operations." alt="" coords="96,5,284,31"/>
+<area shape="rect" id="Node000002" href="$maths_8h.html" title="Include file for the maths functions." alt="" coords="153,79,227,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,31,193,65,187,65,187,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="101,225,183,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="189,105,153,213,148,211,184,104"/>
+<area shape="rect" id="Node000004" href="$structs_8h.html" title="Include file for the structures used in the project." alt="" coords="197,152,276,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="200,103,224,139,219,142,195,106"/>
+<area shape="poly" id="edge17_Node000004_Node000003" title=" " alt="" coords="223,179,170,219,167,215,220,175"/>
+<area shape="rect" id="Node000005" href="$libft_8h.html" title="Include file for the libft functions." alt="" coords="207,225,266,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="239,178,239,212,234,212,234,178"/>
+<area shape="rect" id="Node000015" href="$key__map_8h.html" title="Include file for the key map." alt="" coords="290,225,383,251"/>
+<area shape="poly" id="edge16_Node000004_Node000015" title=" " alt="" coords="254,175,311,215,308,219,251,180"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="408,225,476,251"/>
+<area shape="poly" id="edge18_Node000004_Node000016" title=" " alt="" coords="271,175,397,218,395,223,269,180"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,299,76,324"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="208,252,86,297,84,292,206,247"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="100,299,171,324"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="222,253,165,293,162,288,219,248"/>
+<area shape="rect" id="Node000008" href="$ft__printf_8h.html" title="Include file for the ft_printf function." alt="" coords="195,299,279,324"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="239,251,239,285,234,285,234,251"/>
+<area shape="rect" id="Node000011" href="$get__next__line_8h.html" title="Include file for the get_next_line function." alt="" coords="303,299,426,324"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="252,248,326,290,324,295,249,253"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="118,372,193,397"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="225,326,181,365,177,361,222,322"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="217,372,291,397"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="242,324,251,358,245,360,237,325"/>
+<area shape="poly" id="edge11_Node000011_Node000005" title=" " alt="" coords="349,301,275,259,278,255,352,296"/>
+<area shape="poly" id="edge15_Node000011_Node000010" title=" " alt="" coords="348,326,285,367,282,362,345,322"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="316,372,379,397"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="364,325,356,360,351,358,359,324"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="403,372,470,397"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="378,322,417,360,413,364,375,326"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="495,372,565,397"/>
+<area shape="poly" id="edge14_Node000011_Node000014" title=" " alt="" coords="392,322,492,364,489,369,390,326"/>
+</map>

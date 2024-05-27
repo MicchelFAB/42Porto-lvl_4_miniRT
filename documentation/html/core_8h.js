@@ -1,0 +1,27 @@
+var core_8h =
+[
+    [ "ft_calculate_refracted_indices", "core_8h.html#ae602019d8c50da6386fc6d186e4fd780", null ],
+    [ "ft_check_containers", "core_8h.html#a0bbcec1fe9e90636e0e3605145d5ae10", null ],
+    [ "ft_clamp", "core_8h.html#aa48600566521d108d195c752d8ea21a2", null ],
+    [ "ft_color_at", "core_8h.html#a19f9885f1741158c4af4e5e9ac31fd5c", null ],
+    [ "ft_color_at_bonus", "core_8h.html#aa105c4c3877da971ad521014b7af149c", null ],
+    [ "ft_create_aperture", "core_8h.html#ad462bc562829a7ed93b2f9b861b3291d", null ],
+    [ "ft_create_ray", "core_8h.html#a707964078706c9a20f0336fb98828c38", null ],
+    [ "ft_create_world", "core_8h.html#adc84ba26490db3810c55a2e55aee8b2b", null ],
+    [ "ft_free_canvas", "core_8h.html#aafabd8adb65613ec4f72744d682ccb0f", null ],
+    [ "ft_free_world", "core_8h.html#a58462f28dd8b2e1bcd1d6a5791c731a9", null ],
+    [ "ft_lst_contains", "core_8h.html#af599eb373cfebf7992b8b6f8872f1987", null ],
+    [ "ft_lst_remove", "core_8h.html#a9d5367ce073df689938454a58bc23b40", null ],
+    [ "ft_pixel_at", "core_8h.html#ab96598c7fed0b9d961c741e0d84f0c94", null ],
+    [ "ft_prepare_computations", "core_8h.html#aa5af1ab886b5706087e7ef890108632c", null ],
+    [ "ft_prepare_computations_bonus", "core_8h.html#a3eeaf374a256649a59ebd93c6584a1c9", null ],
+    [ "ft_ray_position", "core_8h.html#a790a453ffd68ead3b6c30feb28f2f032", null ],
+    [ "ft_shade_hit", "core_8h.html#aace074b83c31d2ff5efef297757a3894", null ],
+    [ "ft_shade_hit_bonus", "core_8h.html#a5b237beec99d95010095005cc23b5c48", null ],
+    [ "ft_surface", "core_8h.html#a27ceec87fa81634ed283e5b5b2297f38", null ],
+    [ "ft_surface_bonus", "core_8h.html#affaeecf729205f89c56e2dfe6a3df582", null ],
+    [ "ft_transform_ray", "core_8h.html#a87fd2dcaca401ed72aa534084ccce516", null ],
+    [ "ft_world_intersections", "core_8h.html#acd073d21f3c3330c87dd26a8f500255e", null ],
+    [ "ft_world_intersections_b", "core_8h.html#a4ec6834f198760c091f44503f2cf5cf8", null ],
+    [ "ft_write_pixel", "core_8h.html#acb7b1b5473e169684a0bde171ecc44fe", null ]
+];

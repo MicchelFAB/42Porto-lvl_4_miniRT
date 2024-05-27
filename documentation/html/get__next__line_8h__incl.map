@@ -1,0 +1,23 @@
+<map id="includes/get_next_line.h" name="includes/get_next_line.h">
+<area shape="rect" id="Node000001" title="Include file for the get_next_line function." alt="" coords="261,5,441,31"/>
+<area shape="rect" id="Node000002" href="$libft_8h.html" title="Include file for the libft functions." alt="" coords="207,79,266,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="327,33,261,73,259,68,325,28"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="279,225,354,251"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="352,31,323,212,318,211,347,31"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="355,79,417,104"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="359,30,377,65,372,67,355,32"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="442,79,509,104"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="373,28,445,69,442,74,370,33"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="533,79,604,104"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="387,28,521,72,520,77,385,33"/>
+<area shape="poly" id="edge7_Node000002_Node000001" title=" " alt="" coords="261,76,327,36,330,41,264,81"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,76,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="208,106,86,150,84,145,206,101"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="100,152,171,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="222,106,165,146,162,142,219,102"/>
+<area shape="rect" id="Node000005" href="$ft__printf_8h.html" title="Include file for the ft_printf function." alt="" coords="195,152,279,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="239,104,239,138,234,138,234,104"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="181,225,255,251"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="236,178,227,213,222,212,231,177"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="251,175,295,214,292,218,248,179"/>
+</map>

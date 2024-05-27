@@ -1,0 +1,20 @@
+# AMBIENT LIGHT
+A 0.2 255,255,255
+
+# CAMERA
+C 0.0,7,-22 0,0,0 70
+
+# LIGHTS
+L -10.0,4.0,-9.0 0.8 255,0,0
+L 0,4.0,-9 0.8 0,255,0
+L 10,4.0,-9.0 0.8 0,0,255
+
+# SPHERE (Ring Pattern)
+sp 0,3,10 5.0 0,0,0 pt|ring|255,0,0|0,0,255
+
+# SPHERE (Stripes Pattern)
+sp 0,0,-10 5.0 255,255,255 pt|stripes|255,0,0|0,255,255
+
+# CYLINDER (Textured)
+cy -10,0,10 0,1,0 3.0 4.0 0,255,0 px|textures/gotas.xpm gl|0.5|1.5|
+cy -10,5,10 0,1,0 1.5 4.0 0,255,0 px|textures/gotas.xpm gl|0.5|1.5|

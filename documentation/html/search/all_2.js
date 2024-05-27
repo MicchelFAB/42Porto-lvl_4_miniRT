@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['c_0',['c',['../structs__bhask.html#a2c09e929a6ea340fc9653cca414b11d3',1,'s_bhask']]],
+  ['camera_1',['camera',['../structs__world.html#ac884c27038e5b96b8caec08c61ef3c24',1,'s_world::camera'],['../structs__scene.html#ac884c27038e5b96b8caec08c61ef3c24',1,'s_scene::camera']]],
+  ['camera_2ec_2',['camera.c',['../camera_8c.html',1,'']]],
+  ['camera_5fbonus_2ec_3',['camera_bonus.c',['../camera__bonus_8c.html',1,'']]],
+  ['canvas_4',['canvas',['../structs__world.html#a9ea7dd062daa6f984ae1942c6d5e4732',1,'s_world']]],
+  ['canvas_2ec_5',['canvas.c',['../canvas_8c.html',1,'']]],
+  ['center_6',['center',['../structs__cube.html#ad5a1fcfca36f2ace34501e85d9d1163e',1,'s_cube::center'],['../structs__cone.html#ad5a1fcfca36f2ace34501e85d9d1163e',1,'s_cone::center'],['../structs__cylinder.html#ad5a1fcfca36f2ace34501e85d9d1163e',1,'s_cylinder::center'],['../structs__sphere.html#ad5a1fcfca36f2ace34501e85d9d1163e',1,'s_sphere::center']]],
+  ['checkers_7',['CHECKERS',['../structs_8h.html#a994149aaadbb6c1f0667c1fff958722fa42afcf2595bfa62cf68d4d909d78b91a',1,'structs.h']]],
+  ['closed_8',['closed',['../structs__cylinder.html#a624c24d3973e790d23212b57f13e894b',1,'s_cylinder::closed'],['../structs__cone.html#a624c24d3973e790d23212b57f13e894b',1,'s_cone::closed']]],
+  ['color_9',['color',['../structs__lighting.html#a604bdd8ae93b43b97200daa9f5d691b9',1,'s_lighting::color'],['../structs__material.html#a604bdd8ae93b43b97200daa9f5d691b9',1,'s_material::color'],['../structs__image.html#a576f82d122188e6d3ca96f4582a45524',1,'s_image::color'],['../structs__amb.html#a6f37117290ab2ea8040f79a28df3595b',1,'s_amb::color']]],
+  ['cols_10',['cols',['../structs__matrix.html#a4407a60bc4387adae24cee658711f2d9',1,'s_matrix']]],
+  ['computations_2ec_11',['computations.c',['../computations_8c.html',1,'']]],
+  ['computations_5fbonus_2ec_12',['computations_bonus.c',['../computations__bonus_8c.html',1,'']]],
+  ['computations_5futils_2ec_13',['computations_utils.c',['../computations__utils_8c.html',1,'']]],
+  ['cone_14',['cone',['../structs__shapes.html#a324c72451169e68d3cfaf81b826ddd31',1,'s_shapes::cone'],['../structs_8h.html#a07fb55fb8ca681eee25e1f632b6701adaa605d54c59c22e477ca0e4b94de94a4a',1,'CONE:&#160;structs.h']]],
+  ['cone_5fbonus_2ec_15',['cone_bonus.c',['../cone__bonus_8c.html',1,'']]],
+  ['core_2eh_16',['core.h',['../core_8h.html',1,'']]],
+  ['create_5fobjs_2ec_17',['create_objs.c',['../create__objs_8c.html',1,'']]],
+  ['create_5fobjs_5fbonus_2ec_18',['create_objs_bonus.c',['../create__objs__bonus_8c.html',1,'']]],
+  ['cube_19',['cube',['../structs__shapes.html#a6b45e428d26d86060f3a7c30fcde9b8f',1,'s_shapes::cube'],['../structs_8h.html#a07fb55fb8ca681eee25e1f632b6701adad9ff273a12ff18b3e1b900080aadd1ea',1,'CUBE:&#160;structs.h']]],
+  ['cube_5fbonus_2ec_20',['cube_bonus.c',['../cube__bonus_8c.html',1,'']]],
+  ['cylinder_21',['cylinder',['../structs__shapes.html#ad32dc25cc1cf482ca191dd454a435f56',1,'s_shapes::cylinder'],['../structs_8h.html#a07fb55fb8ca681eee25e1f632b6701ada888b08e657c6e46ad6f758e66b4e6bd2',1,'CYLINDER:&#160;structs.h']]],
+  ['cylinder_2ec_22',['cylinder.c',['../cylinder_8c.html',1,'']]]
+];
